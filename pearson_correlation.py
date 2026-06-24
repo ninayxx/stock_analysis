@@ -14,6 +14,7 @@ with open("AMD_Stock_Data.csv", "r") as c:
     AMD = []
     for row in data:
         AMD.append(float(row[4]))
+
 sumNA = 0
 sumN = 0
 sumA = 0
